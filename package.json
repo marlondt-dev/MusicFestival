@@ -1,0 +1,23 @@
+{
+  "name": "evento-de-musica",
+  "version": "1.0.0",
+  "description": "learning SASS and nmp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ejerecicios-alebat"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Marlon Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
