@@ -3,6 +3,17 @@
 
 .header{
 
+    
+&.fixed {
+
+    @include m.tablet {
+    position: fixed;
+    width: 100%;
+    box-shadow: .1rem .2rem .3rem #333;
+    }
+
+}
+
     background-color: v.$verde;
 
     .contenido-header{
@@ -41,7 +52,8 @@
         color: v.$blanco;
         font-size: 2.3rem;
 
-        &:hover{
+        &:hover, 
+        &.active{
             color: v.$amarillo;
         }
     }
