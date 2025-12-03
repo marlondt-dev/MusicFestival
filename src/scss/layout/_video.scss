@@ -32,8 +32,11 @@
         h2 {
             color: v.$blanco;
             margin: 0;
-            font-size: 6rem;
+             @include m.tablet{
+                font-size: 6rem;
         }
+        }
+       
         p {
             background-color: v.$rosa;
             display: inline-block;
